@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [AppiumCalculator]" parallel="tests">
+  <test name="AdditionOnJ3(failed)" parallel="tests">
+    <parameter name="Device_ID" value="Samsung J3"/>
+    <classes>
+      <class name="main.Calculator">
+        <methods>
+          <include name="testAddition"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- main.Calculator -->
+    </classes>
+  </test> <!-- AdditionOnJ3(failed) -->
+</suite> <!-- Failed suite [AppiumCalculator] -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AppiumCalculator" duration-ms="13044" started-at="2017-06-04T02:28:56Z" finished-at="2017-06-04T02:29:09Z">
+    <groups>
+    </groups>
+    <test name="AdditionOnJ3" duration-ms="12295" started-at="2017-06-04T02:28:56Z" finished-at="2017-06-04T02:29:08Z">
+      <class name="main.Calculator">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:main.Calculator@643b1d11]" name="setUp" is-config="true" duration-ms="7138" started-at="2017-06-03T20:28:56Z" finished-at="2017-06-03T20:29:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung J3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddition()[pri:0, instance:main.Calculator@643b1d11]" name="testAddition" duration-ms="4120" started-at="2017-06-03T20:29:03Z" finished-at="2017-06-03T20:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:main.Calculator@643b1d11]" name="teardown" is-config="true" duration-ms="1016" started-at="2017-06-03T20:29:07Z" finished-at="2017-06-03T20:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- main.Calculator -->
+    </test> <!-- AdditionOnJ3 -->
+    <test name="AdditionOnGalaxyTab" duration-ms="13044" started-at="2017-06-04T02:28:56Z" finished-at="2017-06-04T02:29:09Z">
+      <class name="main.Calculator">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:main.Calculator@5c7fa833]" name="setUp" is-config="true" duration-ms="7349" started-at="2017-06-03T20:28:56Z" finished-at="2017-06-03T20:29:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Galaxy Tab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAddition()[pri:0, instance:main.Calculator@5c7fa833]" name="testAddition" duration-ms="4393" started-at="2017-06-03T20:29:03Z" finished-at="2017-06-03T20:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:main.Calculator@5c7fa833]" name="teardown" is-config="true" duration-ms="1282" started-at="2017-06-03T20:29:08Z" finished-at="2017-06-03T20:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- main.Calculator -->
+    </test> <!-- AdditionOnGalaxyTab -->
+  </suite> <!-- AppiumCalculator -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AppiumCalculator" annotations="JDK" parallel="tests" thread-count="2">
+	<test name="AdditionOnJ3">
+		<parameter name="Device_ID" value="Samsung J3" />
+		<classes>
+			<class name="main.Calculator" />
+		</classes>
+	</test>
+	<test name="AdditionOnGalaxyTab">
+		<parameter name="Device_ID" value="Galaxy Tab" />
+		<classes>
+			<class name="main.Calculator" />
+		</classes>
+	</test>
+</suite>
